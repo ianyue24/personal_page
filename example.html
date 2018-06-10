@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5 Example</title>
+<style type="text/css">
+body {
+	background:#95A5A6;
+	margin:50px;
+}
+#container{
+	width:960px;
+	margin:0 auto;
+}
+.col{
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 3;
+	-moz-column-gap: 10px;
+	-moz-column-fill: auto;
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;
+}
+.pic{
+	display: inline-block;
+	box-sizing:border-box;
+	width:300px;
+	background:#FFF;
+	padding:20px;
+	box-shadow:0 0 5px rgba(0,0,0,.5);
+	margin-bottom:20px;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	column-break-inside: avoid;
+}
+.pic img{
+	width:260px;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+  <div class="col">
+    <div class="pic">
+      <img src="1.jpg">
+      <p>Visit Beijing Forbidden City</p>
+    </div>
+    <div class="pic">
+      <img src="2.jpg">
+      <p>A corner of the Palace.</p>
+    </div>
+    <div class="pic">
+      <img src="3.jpg">
+      <p>To see the Orienta Pearl Tower.</p>
+    </div>
+    <div class="pic">
+      <img src="4.jpg">
+      <p>After dinner,visit the Olympic Park.</p>
+    </div>
+    <div class="pic">
+      <img src="5.jpg">
+      <p>Photographers.</p>
+    </div>
+    <div class="pic">
+      <img src="6.jpg">
+      <p>It's me.</p>
+    </div>
+    <div class="pic">
+      <img src="7.jpg">
+      <p>Silent.</p>
+    </div>
+    <div class="pic">
+      <img src="8.jpg">
+      <p>The Venetian Macao.</p>
+    </div>
+    <div class="pic">
+      <img src="9.jpg">
+      <p>People who don't put sheep.</p>
+    </div>
+    <div class="pic">
+      <img src="10.jpg">
+      <p>The world is so big that i want to have a look.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
